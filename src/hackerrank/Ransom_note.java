@@ -12,6 +12,8 @@ import java.util.Scanner;
  *
  * @author meet
  */
+//Question Link : https://www.hackerrank.com/challenges/ctci-ransom-note/problem
+
 public class Ransom_note {
 
     public static void main(String[] args) {
