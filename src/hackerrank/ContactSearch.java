@@ -12,6 +12,9 @@ import java.util.Scanner;
 /**
  *
  * @author meet
+ *Question : https://www.hackerrank.com/challenges/ctci-contacts/problem
+ *Logic : add all the substring of name into hashmap and then find.
+ * like if name is meet --> add m, add me, add mee, add meet
  */
 public class ContactSearch {
 
