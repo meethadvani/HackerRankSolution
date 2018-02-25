@@ -22,7 +22,7 @@ public class AddNumToArray {
         int count = 1;
         int ans[] = new int[input.length];;
         int carry = 0;
-        ans[ans.length - 1] = num + input[input.length - 1];
+       // ans[ans.length - 1] = num + input[input.length - 1];
         carry = num;
         for (int i = input.length - 1; i >= 0; i--) {
             int temp = carry + input[i];
