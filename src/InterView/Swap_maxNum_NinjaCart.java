@@ -11,6 +11,7 @@ import java.util.Scanner;
  *
  * @author meet
  */
+//Company Name: NinjaCart
 //Question Link(May be they remove) : https://www.hackerrank.com/contests/ninjacart-march3/challenges/do-you-even-swap/problem
 /*
 Question:You are given a positive integer 'a' that has no leading zeroes. 
