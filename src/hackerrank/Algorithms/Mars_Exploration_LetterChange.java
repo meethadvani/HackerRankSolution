@@ -11,6 +11,7 @@ import java.util.Scanner;
  *
  * @author meet
  */
+//Question Link: https://www.hackerrank.com/challenges/mars-exploration/problem
 public class Mars_Exploration_LetterChange {
 
     static int marsExploration(String s) {

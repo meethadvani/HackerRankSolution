@@ -11,16 +11,17 @@ import java.util.Scanner;
  *
  * @author meet
  */
+//Question Link : https://www.hackerrank.com/challenges/strong-password/problem
 public class Strong_Password {
 
-         static int minimumNumber(int n, String password) {
+    static int minimumNumber(int n, String password) {
         // Return the minimum number of characters to make the password strong
         boolean capital = false;
         boolean small = false;
         boolean num = false;
         boolean special = false;
         int count = 0;
-        
+
         for (int i = 0; i < password.length(); i++) {
             if (password.charAt(i) >= 65 && password.charAt(i) <= 90) {
                 capital = true;
@@ -50,11 +51,12 @@ public class Strong_Password {
         if (!special) {
             ++count;
         }
-          if (password.length() < 6) {
-            int temp=6 - password.length();
-              if(temp<count)
-                  return count;
-              return temp;
+        if (password.length() < 6) {
+            int temp = 6 - password.length();
+            if (temp < count) {
+                return count;
+            }
+            return temp;
         }
         return count;
     }
