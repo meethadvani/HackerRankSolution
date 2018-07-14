@@ -24,11 +24,11 @@ public class Fibonacci_Number {
         // return (n > 2) ? fibonacci(n - 1) + fibonacci(n - 2) : 1; (when 0 < n )
         if (n <= 0) {
             return 0;
-        }
-        if (n == 1) {
+        } else if (n == 1) {
             return 1;
         } else {
             result = fibonacci(n - 1) + fibonacci(n - 2);
+            System.out.print(result + " ");
         }
         return result;
     }
@@ -43,6 +43,7 @@ public class Fibonacci_Number {
             result = start + end;
             start = end;
             end = result;
+            System.out.print(" " + result);
         }
         return result;
     }
@@ -51,8 +52,8 @@ public class Fibonacci_Number {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         scanner.close();
-        System.out.println("Using recursion: " + fibonacci(n));
-        System.out.println("Withot recursion: " + fibonacciWithoutRec(n));
+//        System.out.println("Using recursion: " + fibonacci(n));
+         System.out.println("Withot recursion: " + fibonacciWithoutRec(n));
     }
 
 }

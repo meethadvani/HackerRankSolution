@@ -23,7 +23,7 @@ public class ContactSearch {
     public static void addContact(String name) {
 
         for (int i = 0; i < name.length(); i++) {
-            String partialName = name.substring(0, i);
+            String partialName = name.substring(0, i+1);
             if (map.containsKey(partialName)) {
                 int frequency = map.get(partialName);
                 map.put(partialName, ++frequency);
